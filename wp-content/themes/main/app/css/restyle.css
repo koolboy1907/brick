@@ -1,0 +1,102 @@
+
+/**
+ * gallery company
+ */
+ul.gallery-com,
+ul.gallery-com li
+{
+	display: block;
+	position: relative;
+	list-style: none;
+}
+
+.gallery-com
+{
+	width: 102.102803738317757%;
+	margin-left: -1.051401869158879%;
+}
+
+.gallery-com li
+{
+	float: left;
+	width: 31.23052959501558%;
+	margin: 9px 1.051401869158879%;
+}
+
+.gallery-com li *
+{
+	display: block;
+	position: relative;
+	-moz-transition: all 406ms ease-out;
+	-ms-transition: all 406ms ease-out;
+	-o-transition: all 406ms ease-out;
+	-webkit-transition: all 406ms ease-out;
+	transition: all 406ms ease-out;
+}
+
+.gallery-com li a .thumb,
+.gallery-com li a span.name
+{
+	border: 1px solid rgba(204, 204, 204, 0.5);
+}
+
+.gallery-com li a .thumb
+{
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-width: 100%;
+	min-height: 175px !important;
+	background-size: cover;
+}
+
+.gallery-com li:hover a .thumb,
+.gallery-com li a .thumb:hover
+{
+	-webkit-filter: grayscale(60%);
+	-moz-filter: grayscale(60%);
+	-ms-filter: grayscale(60%);
+	-o-filter: grayscale(60%);
+	filter: grayscale(60%);
+	-moz-box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+	-ms-box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+	-o-box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+	-webkit-box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+	-khtml-box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+	box-shadow: inset 0px 0px 11px rgba(0, 0, 0, 0.8);
+}
+
+.gallery-com li a img
+{
+	display: none;
+}
+
+.gallery-com li a span.name
+{
+	background-color: #F3F3F3;
+	border-top: none;
+	padding: 9px;
+	text-align: center;
+	font-weight: normal;
+	color: #0d4484;
+	white-space: nowrap;
+	overflow-x: hidden;
+	text-overflow: ellipsis;
+}
+
+.gallery-com li:hover a span.name,
+.gallery-com li a span.name:hover
+{
+	background-color: #E6E6E6;
+	text-shadow: 1px 1px 0 #FFF;
+}
+.pagination .current {
+	color: #4C545A;
+	padding: 9px 14px;
+	border: 1px solid #4C545A;
+	font-size: 13px;
+	display: inline;
+	border-radius: 50%;
+	box-shadow: 1px 0px 0px 1px #cacaca;
+}
+
+
